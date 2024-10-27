@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alostoura</title>
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mada:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="tel:+201234567890" class="contact-link">01234567890</a>
+
+        <div class="social">
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- nav -->
+
+    <nav class="flex flex-a-center flex-j-between">
+        <a href="#" class="logo">
+            <img src="imgs/logo.png" alt="">
+        </a>
+
+        <button class="nav-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav-son flex flex-a-center flex-j-between">
+            <button class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="links flex gap-20">
+                <li>
+                    <a href="#" class="tap-btn"> <i class="fa-solid fa-house"></i> الرئيسية</a>
+                </li>
+                <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-person-circle-question"></i> من نحن؟</a>
+                </li>
+                <li>
+                    <!-- <button class="tap-btn"> <i class="fa-solid fa-arrow-up-right-dots"></i> خدماتنــا</button> -->
+                    <a href="#" class="tap-btn"> <i class="fa-solid fa-arrow-up-right-dots"></i> خدماتنــا</a>
+                </li>
+                <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-briefcase"></i> سابقة أعمالنا</a>
+                </li>
+                <!-- <li>
+                    <a href="#" class="tap-btn"><i class="fa-solid fa-briefcase"></i> آراء العملاء</a>
+                </li> -->
+            </ul>
+            <div class="btns">
+                <a href="#" class="tap-btn request-btn">اتصل بنا</a>
+                <a href="#" class="tap-btn request-btn">اطلب الخدمة</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider -->
+
+    <section class="slider-container">
+        <!-- 
+                    h-100 make img height 100vh ,
+                    you can delete it to leave image with its normal height 
+                -->
+        <div class="slider ">
+            <!-- loop here -->
+            <div class="slide">
+                <img src="imgs/slide-1.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نحو مستقبل رقمي
+                        </h1>
+                        <p>
+                            نبتكر الحلول البرمجية الأكثر ذكاءً وتفردًا
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-2.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            شريكك في التحول
+                        </h1>
+                        <p>
+                            تحويل الأفكار إلى حلول رقمية متطورة
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-3.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نصمم ونطور
+                        </h1>
+                        <p>
+                            لنقدم لك تجربة رقمية غير مسبوقة
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="imgs/slide-4.jpg">
+                <div class="slide-content">
+                    <div class="child">
+                        <h1>
+                            نحو عصر جديد من التكنولوجيا
+                        </h1>
+                        <p>
+                            حيث تلتقي الكفاءة مع الإبداع
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- btns -->
+        <div class="slider-controls">
+            <button class="slider-prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about-us">
+        <div class="about-content">
+            <h2>من الأسطورة ؟</h2>
+            <p>نحن شركة متخصصة في تقديم الحلول البرمجية المبتكرة لمساعدتك في تحويل أفكارك إلى واقع رقمي متميز.</p>
+        </div>
+
+        <div class="about-boxes">
+            <div class="box">
+                <img src="imgs/vision.png" alt="">
+                <div>
+                    <h3>رؤيتنا</h3>
+                    <p>نسعى لخلق مستقبل رقمي يضيف قيمة حقيقية لشركتك ويسهل الوصول للأهداف.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imgs/message.png" alt="">
+                <div>
+                    <h3>رسالتنا</h3>
+                    <p>الالتزام بتقديم أفضل الخدمات البرمجية التي تلبي احتياجات عملائنا.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imgs/values.png" alt="">
+                <div>
+                    <h3>قيمنا</h3>
+                    <p>نعمل بنزاهة وإتقان لتحقيق النجاح لعملائنا في جميع المشاريع.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imgs/expertise.png" alt="">
+                <div>
+                    <h3>خبرتنا</h3>
+                    <p>لدينا سنوات من الخبرة في تقديم حلول تقنية مبتكرة وفعّالة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <!-- <section class="services">
+        <h2>من الأسطورة ؟</h2>
+        <p>نحن شركة متخصصة في تقديم الحلول البرمجية المبتكرة لمساعدتك في تحويل أفكارك إلى واقع رقمي متميز.</p>
+    </section>
+ -->
+
+    <section class="services">
+        <div class="title-content">
+            <h2>خدماتنا</h2>
+            <p class="sub-title">نقدم مجموعة متنوعة من الحلول البرمجية لمساعدتك في تحقيق أهدافك</p>
+        </div>
+        <div class="services-boxes">
+            <div class="service-box">
+                <img src="imgs/serv.png" alt="">
+                <h3>اسم الخدمة</h3>
+                <p>
+                    نقدم خدمة اسم الخدمة التي تناسب احتياجاتك وتحقق رؤيتك التجارية، حيث نعمل على تصميم مواقع مبتكرة
+                    ومرنة
+                    تُركز على تجربة المستخدم وتحقق نتائج فعّالة
+                </p>
+                <a href="#">اطلب الخدمة <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="service-box">
+                <img src="imgs/serv.png" alt="">
+                <h3>اسم الخدمة</h3>
+                <p>
+                    نقدم خدمة اسم الخدمة التي تناسب احتياجاتك وتحقق رؤيتك التجارية، حيث نعمل على تصميم مواقع مبتكرة
+                    ومرنة
+                    تُركز على تجربة المستخدم وتحقق نتائج فعّالة
+                </p>
+                <a href="#">اطلب الخدمة <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="service-box">
+                <img src="imgs/serv.png" alt="">
+                <h3>اسم الخدمة</h3>
+                <p>
+                    نقدم خدمة اسم الخدمة التي تناسب احتياجاتك وتحقق رؤيتك التجارية، حيث نعمل على تصميم مواقع مبتكرة
+                    ومرنة
+                    تُركز على تجربة المستخدم وتحقق نتائج فعّالة
+                </p>
+                <a href="#">اطلب الخدمة <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="service-box">
+                <img src="imgs/serv.png" alt="">
+                <h3>اسم الخدمة</h3>
+                <p>
+                    نقدم خدمة اسم الخدمة التي تناسب احتياجاتك وتحقق رؤيتك التجارية، حيث نعمل على تصميم مواقع مبتكرة
+                    ومرنة
+                    تُركز على تجربة المستخدم وتحقق نتائج فعّالة
+                </p>
+                <a href="#">اطلب الخدمة <i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+        </div>
+
+        <a href="#" class="more">اعرف اكتر</a>
+    </section>
+
+    <!-- portflio -->
+    <section class="portfolio">
+        <div class="title-content">
+
+            <h2>سابقة أعمالنا</h2>
+            <p class="sub-title">مجموعة من المشاريع التي نفذناها لعملائنا في مجالات متنوعة، والتي تعكس جودة أعمالنا
+                واحترافية فريقنا</p>
+        </div>
+
+        <div class="portfolio-gallery">
+
+            <div class="portfolio-item">
+                <img src="imgs/slide-1.jpg" alt="اسم المشروع" class="portfolio-image">
+                <div class="portfolio-info">
+                    <h3>اسم المشروع</h3>
+                    <p>وصف مختصر عن المشروع، يتضمن أهدافه والخدمات التي تم تقديمها.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/slide-1.jpg" alt="اسم المشروع" class="portfolio-image">
+                <div class="portfolio-info">
+                    <h3>اسم المشروع</h3>
+                    <p>وصف مختصر عن المشروع، يتضمن أهدافه والخدمات التي تم تقديمها.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="imgs/slide-1.jpg" alt="اسم المشروع" class="portfolio-image">
+                <div class="portfolio-info">
+                    <h3>اسم المشروع</h3>
+                    <p>وصف مختصر عن المشروع، يتضمن أهدافه والخدمات التي تم تقديمها.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="more">اعرف اكتر</a>
+    </section>
+    <!-- contact -->
+
+    <section class="contact-us">
+        <h2>تواصل معنا</h2>
+        <p class="contact-description">
+            احنا دايمًا هنا لخدمتك، تقدر تتواصل معانا بطرق كتيرة
+        </p>
+        <div class="contact-son flex">
+            <div class="contact-text">
+                <p>
+                    نحن هنا للإجابة على أي استفسارات قد تكون لديك. إذا كنت ترغب في معرفة المزيد عن خدماتنا
+                    أو لديك أسئلة معينة، لا تتردد في
+                    التواصل معنا. فريقنا المتفاني سيعود إليك في أقرب وقت ممكن.
+                </p>
+                <h3>
+                    البريد الإلكتروني:
+                </h3>
+                <p>
+                    info@yourcompany.com
+                </p>
+                <h3>
+                    ارقامنا :
+                </h3>
+                <a href="tel:+201234567890" class="tel">01234567890</a>
+                <h3>
+                    تابعنا :
+                </h3>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="form-con">
+                <form action="">
+                    <input type="text" placeholder="الاسم">
+                    <input type="text" placeholder="الهاتف">
+                    <input type="email" placeholder="الايميل">
+                    <textarea name="" id="" placeholder="اكتب رسالتك"></textarea>
+                    <button>ارسال</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+
+    <footer>
+        powerd by <a href="https://mrslia.com/">mrslia</a>
+    </footer>
+
+    <!-- java script -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
